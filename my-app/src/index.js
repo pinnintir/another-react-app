@@ -1,0 +1,24 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+//import './index.css';
+import Board from './components/Board';
+import reportWebVitals from './reportWebVitals';
+
+ReactDOM.render(
+    <Board />,
+  document.getElementById('root')
+);
+
+//Everything that is rendered to this page will be passed into Board as a child component
+//We can pass properties from the parents to the child
+//The child can end up with blue eyes and brown hair - it is passing down properties 
+
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+
+
+//We get export 'default' (imported as Board was not found )
+
